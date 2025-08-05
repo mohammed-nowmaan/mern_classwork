@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div example</title>
+</head>
+<style>
+    .circle-container {
+      position: relative;
+      width: 200px;
+      height: 200px;
+      margin: 100px auto; /* Center on page */
+    }
+
+    .circle {
+      position: absolute;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: bold;
+    }
+
+    .circle1 {
+      width: 200px;
+      height: 200px;
+      background-color: red;
+      z-index: 1;
+    }
+
+    .circle2 {
+      width: 150px;
+      height: 150px;
+      background-color: blue;
+      top: 25px;
+      left: 25px;
+      z-index: 2;
+    }
+
+    .circle3 {
+      width: 100px;
+      height: 100px;
+      background-color: yellow;
+      color: black;
+      top: 50px;
+      left: 50px;
+      z-index: 3;
+    }
+
+    .circle4 {
+      width: 50px;
+      height: 50px;
+      background-color: black;
+      top: 75px;
+      left: 75px;
+      z-index: 4;
+    }
+  </style>
+
+<body>
+    <div style="margin-bottom: 30px; border: 1px solid red; border-radius: 100px ;background-color: red; width: 100px;height: 100px;"  >
+        <p >box1</p>
+        </div>
+    <div style="margin-bottom: 30px; border: 1px solid blue;border-radius: 100px ;background-color: blue; width: 100px;height: 100px;"  >
+        <p>
+            box2
+        </p>
+    </div>
+    <div style="margin-bottom: 30px; border: 1px solid red; border-radius: 100px;background-color:yellow; width: 100px;height: 100px;" >
+        <p>box3
+</p>
+      </div>
+    <div style="margin-bottom: 30px; border: 1px solid red; border-radius: 100px;background-color: black; width: 100px;height: 100px;" >
+        <p>box4
+</p>
+    </div>
+     
+   
+</body>
+</html>
